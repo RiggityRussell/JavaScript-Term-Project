@@ -1,0 +1,48 @@
+body{
+	font-family: sans-serif;
+	background-image:url('../media/birthday.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    color:darkblue;
+    font-size:14pt;
+}
+section{
+	margin-left:100px;
+	background-color:white;
+	width:500px; 
+	padding:10px;
+	box-shadow:10px 10px 10px red;
+}
+h1{
+	font-size:28pt;
+	text-align:center;
+}
+input:focus { 
+    background-color:blue;
+    color:white;
+}
+p{
+	text-align:center;
+	font-size:14pt;
+	font-weight:900;
+}
+.inputButton{
+	font-size:14pt;
+	width: 100px; 
+	height: 30px;
+	font-size:12pt;
+	background-color: blue;
+	color:white;
+}
+.formEntry{
+	text-align:center;
+	width:100px;
+	height:20px;
+	font-size:14pt;
+	color:blue;
+}
+.labelDisplay{
+	width:300px;
+	text-align:right;
+	float:left;
+}
