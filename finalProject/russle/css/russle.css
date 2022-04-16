@@ -1,0 +1,108 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: blanchedalmond;
+    background-color: whitesmoke;
+    background-image: url("../media/books.jpg");
+}
+
+p{
+    text-align: left;
+    
+}
+
+a:link {
+    color: whitesmoke;
+    }
+    
+a:visited {
+    color: whitesmoke;
+    }
+    
+a:hover {
+        color: darkgoldenrod;
+        
+    }
+    
+a:active {
+        cursor: pointer;
+        color: blue;
+    }
+
+hr {
+    width: 710px;
+}
+
+
+#title {
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#board {
+    width: 350px;
+    height: 420px;
+    margin: 0 auto;
+    margin-top: 3px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#answer{
+    text-shadow: 2px 2px black;
+}
+
+.button{
+  cursor: pointer;
+  background-color: salmon;
+  border-radius: 10px;
+  border: 2px solid blanchedalmond;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.5s;
+}
+
+.button:hover{
+    background-color: darkslateblue;
+    color: white;
+}
+
+.tile {
+    /* Box */
+    border: 2px solid slategray;
+    width: 60px;
+    height: 60px;
+    margin: 2.5px;
+    background-color: snow;
+
+    /* Text */
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.correct {
+    background-color: green;
+    color: white;
+    border-color: slategray;
+}
+
+.in_word {
+    background-color:burlywood;
+    color: white;
+    border-color: white;
+}
+
+.not_in_word {
+    background-color: slategray;
+    color: white;
+    border-color:white;
+}
